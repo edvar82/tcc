@@ -1,6 +1,6 @@
-(233, 3020077.0, 0, 8275010.9800000)
-YOLOv8n(320x320) tem 233 camadas.
-Ele possui cerca de 3.0 milh√µes de par√°metros trein√°veis.
-Nenhum dos par√°metros est√° congelado (0 n√£o trein√°veis).
-O modelo possui 0.0 bilhÔøΩes de opera√ß√µes de ponto flutuante por segundo (GFLOPs).
-O tamanho do modelo √© aproximadamente 11.58 MB.
+(233, 11135033.0, 0, 30509990.4200000)
+YOLOv8s(128x128) tem 233 camadas.
+Ele possui cerca de 11.1 milhıes de par‚metros trein·veis.
+Nenhum dos par‚metros est· congelado (0 n„o trein·veis).
+O modelo possui 0.0 bilhıes de operaÁıes de ponto flutuante por segundo (GFLOPs).
+O tamanho do modelo È aproximadamente 42.53 MB.

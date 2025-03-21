@@ -341,5 +341,5 @@
 
 # from ultralytics import YOLO
 
-# model = YOLO("runs/detect/train3/weights/best.pt")
+# model = YOLO("runs/detect/train4/weights/yolov8n(128x128).pt")
 # model.export(format="onnx", simplify=True)

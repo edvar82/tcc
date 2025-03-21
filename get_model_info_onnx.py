@@ -17,12 +17,12 @@ def get_model_info(model_path):
 
     return num_layers, total_params, non_trainable_params, flops, model_size
 
-model_path = "models/yolov4_tiny_voc_barracuda.onnx"
+model_path = "models/yolov8s(128x128).onnx"
 num_layers, total_params, non_trainable_params, flops, model_size = get_model_info(model_path)
 
 with open("model_info.txt", "w") as f:
     f.write(f"({num_layers}, {total_params}, {non_trainable_params}, {flops:.7f})\n")
-    f.write(f"YOLOv4-tiny tem {num_layers} camadas.\n")
+    f.write(f"YOLOv8s(128x128) tem {num_layers} camadas.\n")
     f.write(f"Ele possui cerca de {total_params/1e6:.1f} milhões de parâmetros treináveis.\n")
     f.write(f"Nenhum dos parâmetros está congelado ({non_trainable_params} não treináveis).\n")
     f.write(f"O modelo possui {flops/1e9:.1f} bilhões de operações de ponto flutuante por segundo (GFLOPs).\n")
