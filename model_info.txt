@@ -1,4 +1,6 @@
-YOLOv4-tiny tem 63 camadas.
-Ele possui cerca de 5.9 milhes de parametros treinaveis.
-Nenhum dos parametros esta congelado (0 nao treinaveis).
-O tamanho do modelo é aproximadamente 22.58 MB.
+(233, 3020077.0, 0, 8275010.9800000)
+YOLOv8n(320x320) tem 233 camadas.
+Ele possui cerca de 3.0 milhões de parámetros treináveis.
+Nenhum dos parámetros está congelado (0 não treináveis).
+O modelo possui 0.0 bilh�es de operações de ponto flutuante por segundo (GFLOPs).
+O tamanho do modelo é aproximadamente 11.58 MB.
